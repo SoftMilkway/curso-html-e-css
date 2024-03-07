@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dd::after {
+    content: attr(data-tooltip); /* Obtém o texto do atributo data-tooltip */
+    display: none; /* Inicialmente, o tooltip está escondido */
+    position: absolute; /* Permite posicionamento preciso */
+    top: 15px; /* Ajusta a posição do tooltip para aparecer acima do termo */
+    left: 12;
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo do tooltip */
+    color: #fff; /* Cor do texto do tooltip */
+    padding: 5px 10px; /* Espaçamento interno do tooltip */
+    border-radius: 5px; /* Borda arredondada */
+    height: 12px;
+}
+
+
+/* Exibir o tooltip quando o mouse passa por cima */
+dd:hover::after {
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>girllllll</dt>
+        <dd data-tooltip="all eyez on me">is easy to love me now...</dd>
+    </dl>
+    <audio preload="none" controls>
+        <source src="Y2meta.app - Baby G2C - _Eu Até Gostava Dela..._ (128 kbps).mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

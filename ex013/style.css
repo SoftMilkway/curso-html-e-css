@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    background-image: url(https://miro.medium.com/v2/resize:fit:2000/1*b6E9dEyi1MZgsGqJYZDfkA.jpeg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+#refle img {
+    float: left;
+    padding: 5px;
+}
+
+#titulo {
+    text-align: center;
+    color: #2e005f;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+main h2 {
+    text-align: center;
+}
+main a {
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+blockquote footer {
+    font-style: normal;
+    font-size: 0.8em; /* Tamanho do texto do autor */
+    color: #666; /* Cor do texto do autor */
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+   background-color: rgb(63, 60, 70);
+}
+h1 {
+    text-align: center;
+    width: -10px;
+}
+.imagem {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+.imagemcontedor {
+    text-align: center;
+    width: 30%;
+}
+
+.contedorimagem2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contedorimagem3 p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+h2 {
+    font-weight: 600;
+    text-align: center;
+}
+p {
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8"
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #172026, #027373);
+    
+    
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px #172026;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 120;
+    text-align: justify;
+}
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+}
+.videos {
+    text-align: left;
+}
