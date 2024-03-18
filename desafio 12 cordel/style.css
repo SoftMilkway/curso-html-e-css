@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "titul";
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format("TrueType");
+    font-family: "letra";
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format("TrueType");
+}
+:root {
+    --titulo: "titul";
+    --letras: "letra";
+    --cor1: black;
+}
+
+header{
+    background-color: black;
+    color: white;
+    
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
