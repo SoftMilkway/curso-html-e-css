@@ -1,24 +1,52 @@
 @charset "UTF-8";
-@font-face {
-    font-family: "titul";
-    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format("TrueType");
-    font-family: "letra";
-    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format("TrueType");
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 :root {
-    --titulo: "titul";
-    --letras: "letra";
-    --cor1: black;
+    --font1: "Verdana, Geneva, Tahoma, sans-serif";
+    --font2: 'Passion One, cursive';
+    --font3: 'Sriracha, cursive';
 }
-
+html, body {
+    font-family: var(--font1);
+}
 header{
     background-color: black;
     color: white;
-    
+    text-align: center;
+    padding: 50px;
+}
+header h1 {
+    font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 4em;
 }
 header a {
     color: white;
     text-decoration: none;
 }
 
-
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font2);
+    
+}
+.imagemflor {
+    background-color: gray;
+    color: white;
+}
+.imagemflor p {
+    background-color: black;
+    width: 400px;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
